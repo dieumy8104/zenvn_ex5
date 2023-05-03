@@ -1,0 +1,39 @@
+/* exercise5 */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .house-web {
+    color: #888;
+    background-color: #e8e8e8;
+    padding: 20px 15px;
+    min-width: 432px;
+  }
+  
+  .house {
+    background-color: white;
+    border: 1px solid #ededed;
+    margin-bottom: 20px;
+  }
+  
+  .img-responsive {
+    padding: 10px;
+  }
+  
+  .media-body {
+    padding: 5px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .img-responsive {
+      height: 165px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .media-body {
+      padding: 5px 10px;
+    }
+  }
+  /* end exercise5 */
